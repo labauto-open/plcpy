@@ -3,6 +3,7 @@
 
 from __future__ import print_function
 import socket
+import sys
 import time
 
 
@@ -24,7 +25,9 @@ class PLCInterfaceBase(object):
                 time.sleep(0.5)
                 print('Connected to PLC\n')
             except Exception as e:
-                print('Connection error')
+                print('PLC connection error')
+                print(e)
+                sys.exit(1)
 
 
     def is_connected(self):
