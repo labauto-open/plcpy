@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-from plc_interface_base import PLCInterfaceBase
+from plcpy.plc_interface_base import PLCInterfaceBase
 
 
 class PLCInterfaceKeyence(PLCInterfaceBase):

@@ -3,7 +3,7 @@
 
 import re
 import struct
-from plc_interface_base import PLCInterfaceBase
+from plcpy.plc_interface_base import PLCInterfaceBase
 
 
 class PLCInterfaceMitsubishi(PLCInterfaceBase):
